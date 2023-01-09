@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/img/player-picture.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Music Player</title>
 </head>
+
 <body>
-    
+    <main>
+        <audio src="assets/music/se-voce-nao-me-ama.mp3" id="music"></audio>
+        <section id="player">
+            <div>
+                <img src="assets/img/player-picture.png" alt="Player Picture">
+                <div>
+                    <h2>Se você não me ama</h2>
+                    <p>Manoel Gomes</p>
+                </div>
+            </div>
+            <div id="player-control">
+                <img src="assets/img/play-back.svg" alt="Play Back">
+                <img src="assets/img/play.svg" alt="Play" id="btn-play">
+                <img src="assets/img/play-forward.svg" alt="Play Forward">
+            </div>
+            <img src="assets/img/player-mobile.svg" alt="Player Mobile">
+        </section>
+    </main>
+    <script src="assets/js/index.js"></script>
 </body>
+
 </html>
