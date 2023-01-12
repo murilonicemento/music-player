@@ -1,5 +1,5 @@
 # Music Player
-Projeto Rocketseat - #boraCodar
+Projeto 1 Rocketseat - #boraCodar
 
 ## Deploy da aplicação
 https://music-player-virid-iota.vercel.app/
